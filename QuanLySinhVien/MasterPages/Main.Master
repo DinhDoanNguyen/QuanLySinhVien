@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="QuanLySinhVien.MasterPages.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Trường Đại Học Mỏ Địa Chất</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initital-scale=1.0" />
+    <link href="/css/MainStyle.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <header>
+            <img class="img-responsive" src="/img/logo-moi.png" width="100%" height="100%">
+        </header>
+
+        <nav class="topMenu">
+            <nav class="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="nav-top"><a href="#">TRANG CHỦ</a></li>
+                    <li class="nav-top"><a href="#">SINH VIÊN</a></li>
+                    <li class="nav-top"><a href="#">GIÁO VIÊN</a></li>
+                    <li class="nav-top"><a href="#">LỚP</a></li>
+                    <li class="nav-top"><a href="#">KHOA</a></li>
+                    <li class="nav-top"><a href="#">MÔN HỌC</a></li>
+                    <li class="nav-top"><a href="#">ĐIỂM</a></li>
+                </ul>
+            </nav>
+        </nav>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+            <h4>Trường Đại Học Mỏ - Địa Chất</h4>
+        </footer>
+
+    </form>
+</body>
+</html>

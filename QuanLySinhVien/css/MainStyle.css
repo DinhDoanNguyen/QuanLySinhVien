@@ -1,0 +1,46 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.topMenu nav {
+    position: relative;
+    min-height: 5%;
+    margin: 0;
+    padding-bottom: 0;
+    background-color: Highlight;
+}
+
+.nav a {
+    display: inline-block;
+    color: #e7e7e7;
+    padding: 5px 16px;
+    border-right: 2px solid #e7e7e7;
+}
+
+    .nav a:hover {
+        color: #ff0000;
+        text-decoration: underline;
+    }
+
+.nav .nav-top a {
+    padding: 5px 16px;
+}
+
+.row {
+    min-height: 500px;
+    border: 2px solid #000000;
+    background-color: aqua;
+}
+
+footer {
+    background-color: Highlight;
+}
+
+    footer h4 {
+        margin: 0;
+        padding: 0.4%;
+        text-align: center;
+    }
