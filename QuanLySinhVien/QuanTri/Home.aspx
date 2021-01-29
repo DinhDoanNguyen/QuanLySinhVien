@@ -38,6 +38,7 @@
     </nav>
 
     <div class="row">
+
         <nav class="leftColumn">
             <ul>
                 <li class="leftMenu"><a href="#">Thạc Sĩ</a></li>
@@ -55,7 +56,7 @@
                     <input type="text" class="textBox" placeholder="tìm kiếm..." />
                 </div>
 
-                <table>
+                <table class="table table-condensed">
                     <thead>
                         <tr>
                             <th class="small">STT</th>

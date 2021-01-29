@@ -67,11 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\MainStyle.css" />
-    <Content Include="QuanTri\Home.aspx" />
     <Content Include="css\Style.css" />
+    <Content Include="QuanTri\GiangVien\MainForm.aspx" />
+    <Content Include="QuanTri\Home.aspx" />
     <Content Include="img\logo-moi.png" />
     <Content Include="js\Script.js" />
+    <Content Include="QuanTri\Home\MainForm.aspx" />
+    <Content Include="QuanTri\SinhVien\DetailForm.aspx" />
     <Content Include="QuanTri\SinhVien\MainForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -83,6 +85,13 @@
     <Compile Include="MasterPages\Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
+    <Compile Include="QuanTri\GiangVien\MainForm.aspx.cs">
+      <DependentUpon>MainForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanTri\GiangVien\MainForm.aspx.designer.cs">
+      <DependentUpon>MainForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="QuanTri\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -91,6 +100,20 @@
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanTri\Home\MainForm.aspx.cs">
+      <DependentUpon>MainForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanTri\Home\MainForm.aspx.designer.cs">
+      <DependentUpon>MainForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuanTri\SinhVien\DetailForm.aspx.cs">
+      <DependentUpon>DetailForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanTri\SinhVien\DetailForm.aspx.designer.cs">
+      <DependentUpon>DetailForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="QuanTri\SinhVien\MainForm.aspx.cs">
       <DependentUpon>MainForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

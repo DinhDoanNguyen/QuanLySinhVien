@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Main.Master" AutoEventWireup="true" CodeBehind="MainForm.aspx.cs" Inherits="QuanLySinhVien.QuanTri.SinhVien.MainForm" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Main.Master" AutoEventWireup="true" CodeBehind="MainForm.aspx.cs" Inherits="QuanLySinhVien.QuanTri.GiangVien.MainForm" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -16,18 +16,12 @@
         </div>
 
         <div class="right-col">
-            <h4 id="lbl-top">Quản lý Sinh Viên</h4>
-
-            <div id="load-Form">
-
-            </div>
+            <h4 id="lbl-top">Quản lý Giảng Viên</h4>
 
             <div class="function">
                 <button id="btnThem" class="btn btn-info">Thêm</button>
                 <input type="text" id="txtTimKiem" placeholder="Tìm kiếm..." />
             </div>
-
-            <div id="load-form" style="background-color: red;"></div>
 
             <div>
                 <table class="table table-bordered">

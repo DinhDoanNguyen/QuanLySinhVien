@@ -5,175 +5,90 @@
     color: #000000;
 }
 
-body {
+/*-------------------------------------------------*/
+
+.topMenu nav {
+    position: relative;
+    min-height: 5%;
     margin: 0;
-    padding: 0;
-}
-
-header {
-    /*height: 120px;
-    width: 100%;
-    background-image: url('../img/logo-moi.png' );
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: inline-block;
-    background-color: #ffffff;*/
-    /*background: <img class="img-responsive" src="../img/logo-moi.png" alt="Chania" width=100% height=100%>*/
-}
-
-/*.header {
-    margin-top: 20px;
-}
-
-    .header .textHeader {
-        margin-left: 120px;
-        color: Highlight;
-    }*/
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 0;
-    overflow: auto;
-}
-
-
-#rowMenu {
-    margin-top: 0;
-    margin-bottom: 0px;
-}
-
-#topMenu ul {
+    padding-bottom: 0;
     background-color: Highlight;
 }
 
-.topMenu {
-    float: left;
+.nav a {
+    display: inline-block;
+    color: #e7e7e7;
+    padding: 5px 16px;
+    border-right: 2px solid #e7e7e7;
 }
 
-    .topMenu a {
-        display: inline-block;
-        color: #e7e7e7;
-        text-align: center;
-        padding: 5px 16px;
-        text-decoration: none;
-        border-right: 2px solid #e7e7e7;
+    .nav a:focus, a:hover {
+        color: #337ab7;
     }
 
-        .topMenu a:hover {
-            color: #ff0000;
-            text-decoration: underline;
-        }
-
-.leftColumn {
-    float: left;
-    width: 18%;
-    height: 475px;
-    background-color: #f1f1f1;
-    max-height: 475px;
-    border: 5px solid #e7e7e7;
+.nav .nav-top a {
+    padding: 5px 16px;
 }
 
-.leftMenu {
-    background-color: lightskyblue;
+/*-------------------------------------------------*/
+
+#main-body {
+    margin: 0;
+    height: 500px
+}
+
+.main-content {
+    margin: 0.5%;
+    height: 500px
+}
+
+.left-col {
+    width: 15.5%;
+    height: inherit;
+    float: left;
+    margin-right: 0.5%;
+    background-color: #e7e7e7;
+}
+
+.nav-left li a {
+    background-color: Highlight;
     border: 2px solid Highlight;
     margin-bottom: 2px;
 }
 
-    .leftMenu a {
-        display: inline-block;
-        color: darkblue;
-        text-align: left;
-        padding: 5px 16px;
-        text-decoration: none;
-    }
+/*-----------------------------------*/
 
-    .leftMenu:hover a {
-        background-color: Highlight;
-        color: #ffffff;
-    }
-
-    .leftMenu:hover {
-        background-color: Highlight;
-    }
-
-.rightColumn {
+.right-col {
     float: left;
-    width: 82%;
-    height: 475px;
-    max-height: 475px;
-    background-color: #f1f1f1;
-    border: 5px solid #e7e7e7;
-}
-
-.function {
-    padding: 10px;
-}
-
-.btn {
-    padding: 2px 7px;
-    margin: 5px;
-}
-
-.card {
-    margin: 5px 10px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-tr, th, td {
-    border: 1px solid #808080;
+    width: 84%;
+    height: inherit;
+    background-color: #e7e7e7;
     padding: 5px;
 }
 
-
-
-.textBox {
-    float: right;
-    margin: 7px 20px;
-    padding: 2px;
+#lbl-top {
+    margin: 0;
+    padding: 1%;
 }
 
-tr:nth-child(odd) {
-    background-color: #e7e7e7;
+.function {
+    margin: 0.5% 2%;
 }
 
-.small {
-    width: 2%;
-    text-align: center;
-}
-
-    .small:hover {
-        color: red;
+    .function #txtTimKiem {
+        float: right;
     }
 
-.fa .fa-edit:hover {
-    color: blue;
-    background-color: red;
-}
-
-.fa .fa-trash:hover {
-    color: red;
-    background-color: red;
-}
+/*-------------------------------------------------*/
 
 footer {
+    clear: both;
+    margin-bottom: 3px;
     background-color: Highlight;
-    border: 1px solid #e7e7e7;
-    height: 25px;
 }
 
     footer h4 {
+        margin: 0;
+        padding: 0.4%;
         text-align: center;
-        padding: 2px;
     }
