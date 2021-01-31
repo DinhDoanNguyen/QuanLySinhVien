@@ -15,67 +15,6 @@
     //debugger;
     $("#lstSV").html(lstSinhVien);
 
-    //$("#form-home").click(function () {
-    //    //$("#content").load("/Form/FormDemo.aspx");
-    //    $("#fomr1").load("/QuanTri/Home/MainForm.aspx").dialog({
-    //        //autoOpen: true,
-    //        //height: 500,
-    //        //width: 1000,
-    //        //modal: true,
-    //        //position: 'top',
-    //        //title: "Title",
-    //        Cancel: function () {
-    //            $(this).html("").dialog("close");
-    //        }
-    //    });
-    //});
-
-    //$("#form-GiangVien").click(function () {
-    //    //$("#content").load("/Form/FormDemo.aspx");
-    //    $("#form1").load("/QuanTri/GiangVien/MainForm.aspx").dialog({
-
-    //        //autoOpen: true,
-    //        //height: 500,
-    //        //width: 1000,
-    //        //modal: true,
-    //        //position: 'top',
-    //        //title: "Title",
-    //        Cancel: function () {
-    //            $(this).html("").dialog("close");
-    //        }
-    //    });
-    //});
-
-    //$("#form-SinhVien").click(function () {
-    //    //$("#content").load("/Form/FormDemo.aspx");
-    //    $("#form1").load("/QuanTri/SinhVien/MainForm.aspx").dialog({
-    //        //autoOpen: true,
-    //        //height: 500,
-    //        //width: 1000,
-    //        //modal: true,
-    //        //position: 'top',
-    //        //title: "Title",
-    //        Cancel: function () {
-    //            $(this).html("").dialog("close");
-    //        }
-    //    });
-    //});
-
-    //$("btnThem").click(function () {
-    //    $("#load-form").load("/QuanTri/SinhVien/DetailForm.aspx").dialog({
-    //        autoOpen: true,
-    //        height: 500,
-    //        width: 1000,
-    //        modal: true,
-    //        position: 'top',
-    //        title: "Title",
-    //        Cancel: function () {
-    //            $(this).html("").dialog("close");
-    //        }
-    //    });
-    //});
-
-
     $("#btnThem").click(function () {
         Add();
     });
@@ -85,7 +24,6 @@
 
 
 function Add() {
-    
     $.post(encodeURI("DetailForm.aspx"), {}, function (data) {
         $("#load-Form").html(data);
         debugger;   

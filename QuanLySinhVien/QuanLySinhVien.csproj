@@ -69,7 +69,6 @@
   <ItemGroup>
     <Content Include="css\Style.css" />
     <Content Include="QuanTri\GiangVien\MainForm.aspx" />
-    <Content Include="QuanTri\Home.aspx" />
     <Content Include="img\logo-moi.png" />
     <Content Include="js\Script.js" />
     <Content Include="QuanTri\Home\MainForm.aspx" />
@@ -91,13 +90,6 @@
     </Compile>
     <Compile Include="QuanTri\GiangVien\MainForm.aspx.designer.cs">
       <DependentUpon>MainForm.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="QuanTri\Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="QuanTri\Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuanTri\Home\MainForm.aspx.cs">

@@ -35,13 +35,13 @@
         <nav class="topMenu">
             <nav class="navbar">
                 <ul class="nav navbar-nav">
-                    <li id="form-home" class="nav-top"><a href="/QuanTri/Home/MainForm.aspx">TRANG CHỦ</a></li>
-                    <li id="form-SinhVien" class="nav-top"><a href="/QuanTri/SinhVien/MainForm.aspx">SINH VIÊN</a></li>
-                    <li id="form-GiangVien" class="nav-top"><a href="/QuanTri/GiangVien/MainForm.aspx">GIẢNG VIÊN</a></li>
-                    <li id="form-Lop" class="nav-top"><a href="#">LỚP</a></li>
-                    <li id="form-Khoa" class="nav-top"><a href="#">KHOA</a></li>
-                    <li id="form-MonHoc" class="nav-top"><a href="#">MÔN HỌC</a></li>
-                    <li id="form-diem" class="nav-top"><a href="#">ĐIỂM</a></li>
+                    <li id="home-pages" class="nav-top"><a href="/QuanTri/Home/MainForm.aspx">TRANG CHỦ</a></li>
+                    <li id="sinhVien-pages" class="nav-top"><a href="/QuanTri/SinhVien/MainForm.aspx">SINH VIÊN</a></li>
+                    <li id="giangVien-pages" class="nav-top"><a href="/QuanTri/GiangVien/MainForm.aspx">GIẢNG VIÊN</a></li>
+                    <li id="lop-pages" class="nav-top"><a href="#">LỚP</a></li>
+                    <li id="khoa-pages" class="nav-top"><a href="#">KHOA</a></li>
+                    <li id="monHoc-pages" class="nav-top"><a href="#">MÔN HỌC</a></li>
+                    <li id="diem-pages" class="nav-top"><a href="#">ĐIỂM</a></li>
                 </ul>
             </nav>
         </nav>
