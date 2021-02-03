@@ -28,12 +28,12 @@ function Add() {
     $.post("DetailForm.aspx", function (data) {
         $("#load-Form").html(data);
         debugger;
+        $("#load-Form").dialog({
+            title: "Thêm sinh viên",
+            modal: true,
+            width: 600,
+            height: 600,
+            resizable: false,
+        }).dialog("open");
     });
-    $("#load-Form").dialog({
-        title: "Thêm sinh viên",
-        modal: true,
-        width: 600,
-        height: 600,
-        resizable: false,
-    }).dialog("open");
 };

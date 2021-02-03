@@ -19,7 +19,7 @@
             <h4 id="lbl-top">Quản lý Sinh Viên</h4>
 
             <div class="function">
-                <button id="btnThem" class="btn btn-info">Thêm</button>
+                <button id="btnThem" type="button" class="btn btn-info">Thêm</button>
                 <input type="text" id="txtTimKiem" placeholder="Tìm kiếm..." />
             </div>
 
