@@ -18,10 +18,6 @@
         <div class="right-col">
             <h4 id="lbl-top">Quản lý Sinh Viên</h4>
 
-            <div id="load-Form">
-
-            </div>
-
             <div class="function">
                 <button id="btnThem" class="btn btn-info">Thêm</button>
                 <input type="text" id="txtTimKiem" placeholder="Tìm kiếm..." />
@@ -34,11 +30,13 @@
                     <thead>
                         <tr>
                             <th class="small">STT</th>
+                            <th>Mã sinh viên</th>
                             <th>Họ và tên</th>
                             <th>Ngày sinh</th>
                             <th>Giới tính</th>
                             <th>Lớp</th>
                             <th>Khoa</th>
+                            <th>Số điện thoại</th>
                             <th class="small">Sửa</th>
                             <th class="small">Xoá</th>
                         </tr>
@@ -46,6 +44,9 @@
                     <tbody id="lstSV">
                     </tbody>
                 </table>
+
+                <div id="load-Form"></div>
+
             </div>
         </div>
     </div>

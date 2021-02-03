@@ -37,7 +37,7 @@
                             <th class="small">Xoá</th>
                         </tr>
                     </thead>
-                    <tbody id="lstSV">
+                    <tbody id="lstGV">
                     </tbody>
                 </table>
             </div>

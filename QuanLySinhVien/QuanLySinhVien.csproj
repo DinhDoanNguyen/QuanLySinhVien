@@ -67,10 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\Style.css" />
+    <Content Include="css\main.css" />
     <Content Include="QuanTri\GiangVien\MainForm.aspx" />
     <Content Include="img\logo-moi.png" />
-    <Content Include="js\Script.js" />
+    <Content Include="js\main.js" />
     <Content Include="QuanTri\Home\MainForm.aspx" />
     <Content Include="QuanTri\SinhVien\DetailForm.aspx" />
     <Content Include="QuanTri\SinhVien\MainForm.aspx" />
