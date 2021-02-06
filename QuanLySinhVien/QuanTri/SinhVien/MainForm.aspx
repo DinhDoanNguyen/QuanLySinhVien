@@ -29,7 +29,6 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th class="small">STT</th>
                             <th>Mã sinh viên</th>
                             <th>Họ và tên</th>
                             <th>Ngày sinh</th>
@@ -37,15 +36,126 @@
                             <th>Lớp</th>
                             <th>Khoa</th>
                             <th>Số điện thoại</th>
+                            <th>Email</th>
                             <th class="small">Sửa</th>
                             <th class="small">Xoá</th>
                         </tr>
                     </thead>
                     <tbody id="lstSV">
+                        <tr>
+                            <td>1721050069</td>
+                            <td>Nguyễn Đình Đoàn</td>
+                            <td>09/04/1999</td>
+                            <td>Nam</td>
+                            <td>CNPM</td>
+                            <td>CNTT</td>
+                            <td>0987654321</td>
+                            <td>nguyendinhdoan.09@gmail.com</td>
+                            <td class='small edit'><a href="#"><i class='fa fa-edit'></i></a></td>
+                            <td class='small delete'><a href="#"><i class='fa fa-trash'></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>1721050069</td>
+                            <td>Nguyễn Đình Đoàn</td>
+                            <td>09/04/1999</td>
+                            <td>Nam</td>
+                            <td>CNPM</td>
+                            <td>CNTT</td>
+                            <td>0987654321</td>
+                            <td>nguyendinhdoan.09@gmail.com</td>
+                            <td class='small edit'><a href="#"><i class='fa fa-edit'></i></a></td>
+                            <td class='small delete'><a href="#"><i class='fa fa-trash'></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>1721050069</td>
+                            <td>Nguyễn Đình Đoàn</td>
+                            <td>09/04/1999</td>
+                            <td>Nam</td>
+                            <td>CNPM</td>
+                            <td>CNTT</td>
+                            <td>0987654321</td>
+                            <td>nguyendinhdoan.09@gmail.com</td>
+                            <td class='small edit'><a href="#"><i class='fa fa-edit'></i></a></td>
+                            <td class='small delete'><a href="#"><i class='fa fa-trash'></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>1721050069</td>
+                            <td>Nguyễn Đình Đoàn</td>
+                            <td>09/04/1999</td>
+                            <td>Nam</td>
+                            <td>CNPM</td>
+                            <td>CNTT</td>
+                            <td>0987654321</td>
+                            <td>nguyendinhdoan.09@gmail.com</td>
+                            <td class='small edit'><a href="#"><i class='fa fa-edit'></i></a></td>
+                            <td class='small delete'><a href="#"><i class='fa fa-trash'></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>1721050069</td>
+                            <td>Nguyễn Đình Đoàn</td>
+                            <td>09/04/1999</td>
+                            <td>Nam</td>
+                            <td>CNPM</td>
+                            <td>CNTT</td>
+                            <td>0987654321</td>
+                            <td>nguyendinhdoan.09@gmail.com</td>
+                            <td class='small edit'><a href="#"><i class='fa fa-edit'></i></a></td>
+                            <td class='small delete'><a href="#"><i class='fa fa-trash'></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>1721050069</td>
+                            <td>Nguyễn Đình Đoàn</td>
+                            <td>09/04/1999</td>
+                            <td>Nam</td>
+                            <td>CNPM</td>
+                            <td>CNTT</td>
+                            <td>0987654321</td>
+                            <td>nguyendinhdoan.09@gmail.com</td>
+                            <td class='small edit'><a href="#"><i class='fa fa-edit'></i></a></td>
+                            <td class='small delete'><a href="#"><i class='fa fa-trash'></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>1721050069</td>
+                            <td>Nguyễn Đình Đoàn</td>
+                            <td>09/04/1999</td>
+                            <td>Nam</td>
+                            <td>CNPM</td>
+                            <td>CNTT</td>
+                            <td>0987654321</td>
+                            <td>nguyendinhdoan.09@gmail.com</td>
+                            <td class='small edit'><a href="#"><i class='fa fa-edit'></i></a></td>
+                            <td class='small delete'><a href="#"><i class='fa fa-trash'></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>1721050069</td>
+                            <td>Nguyễn Đình Đoàn</td>
+                            <td>09/04/1999</td>
+                            <td>Nam</td>
+                            <td>CNPM</td>
+                            <td>CNTT</td>
+                            <td>0987654321</td>
+                            <td>nguyendinhdoan.09@gmail.com</td>
+                            <td class='small edit'><a href="#"><i class='fa fa-edit'></i></a></td>
+                            <td class='small delete'><a href="#"><i class='fa fa-trash'></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>1721050069</td>
+                            <td>Nguyễn Đình Đoàn</td>
+                            <td>09/04/1999</td>
+                            <td>Nam</td>
+                            <td>CNPM</td>
+                            <td>CNTT</td>
+                            <td>0987654321</td>
+                            <td>nguyendinhdoan.09@gmail.com</td>
+                            <td class='small edit'><a href="#"><i class='fa fa-edit'></i></a></td>
+                            <td class='small delete'><a href="#"><i class='fa fa-trash'></i></a></td>
+                        </tr>
                     </tbody>
                 </table>
 
-                <div id="load-Form"></div>
+                <div id="frmAdd"></div>
+
+                <div id="frmDelete"></div>
 
             </div>
         </div>

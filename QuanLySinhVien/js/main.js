@@ -21,19 +21,54 @@
         Add();
     });
 
+    $(".edit").click(function () {
+        Edit();
+    });
+
+    $(".delete").click(function () {
+        Delete();
+    });
+
 });
 
 
 function Add() {
     $.post("DetailForm.aspx", function (data) {
-        $("#load-Form").html(data);
+        $("#frmAdd").html(data);
         debugger;
-        $("#load-Form").dialog({
+        $("#frmAdd").dialog({
             title: "Thêm sinh viên",
+            width: 400,
             modal: true,
-            width: 600,
-            height: 600,
             resizable: false,
         }).dialog("open");
+    });
+};
+
+function Edit() {
+    $.post("DetailForm.aspx", function (data) {
+        $("#frmAdd").html(data);
+    });
+    $("#frmAdd").dialog({
+        title: "Sửa thông tin sinh viên",
+        width: 400,
+    }).dialog("open");
+};
+
+function Delete() {
+    var messengeDelete = "Bạn có muốn xoá sinh viên";
+    $("#frmDelete").html("<div><h6>" + messengeDelete + "</div></h6>").dialog({
+        auto: false,
+        width: 300,
+        title: "Xoá",
+        modal: true,
+        buttons: {
+            "Đồng ý": function () {
+                $(this).dialog("close");
+            },
+            "Huỷ": function () {
+                $(this).dialog("close")
+            }
+        }
     });
 };
