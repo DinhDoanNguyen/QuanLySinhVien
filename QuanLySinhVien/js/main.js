@@ -38,7 +38,7 @@ function Add() {
         debugger;
         $("#frmAdd").dialog({
             title: "Thêm sinh viên",
-            width: 400,
+            width: 600,
             modal: true,
             resizable: false,
         }).dialog("open");
@@ -51,7 +51,7 @@ function Edit() {
     });
     $("#frmAdd").dialog({
         title: "Sửa thông tin sinh viên",
-        width: 400,
+        width: 600,
     }).dialog("open");
 };
 
