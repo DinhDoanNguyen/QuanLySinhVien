@@ -35,10 +35,10 @@
 function Add() {
     $.post("DetailForm.aspx", function (data) {
         $("#frmAdd").html(data);
-        debugger;
         $("#frmAdd").dialog({
             title: "Thêm sinh viên",
             width: 600,
+            height: 500,
             modal: true,
             resizable: false,
         }).dialog("open");

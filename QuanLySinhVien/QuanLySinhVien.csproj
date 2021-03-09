@@ -1,5 +1,4 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -62,24 +61,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="bootstrap\bootstrap.css" />
-    <Content Include="bootstrap\bootstrap.js" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\css\bootstrap.css" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\css\bootstrap.min.css" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\js\bootstrap.js" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\js\bootstrap.min.js" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\js\npm.js" />
     <Content Include="bootstrap\bootstrap.min.css" />
     <Content Include="bootstrap\bootstrap.min.js" />
     <Content Include="bootstrap\font-awesome\all.css" />
     <Content Include="bootstrap\font-awesome\all.min.css" />
     <Content Include="bootstrap\font-awesome\font-awesome.css" />
     <Content Include="bootstrap\font-awesome\font-awesome.min.css" />
-    <Content Include="bootstrap\jquery.js" />
-    <Content Include="bootstrap\jquery.min.js" />
-    <Content Include="bootstrap\Jquery\jquery-1.12.4.js" />
-    <Content Include="bootstrap\Jquery\jquery-ui.js" />
-    <Content Include="bootstrap\Jquery\jquery.min.js" />
     <Content Include="css\main.css" />
     <Content Include="fontawesome-free-5.15.2-web\font-awesome\all.css" />
     <Content Include="fontawesome-free-5.15.2-web\font-awesome\all.min.css" />
@@ -1734,8 +1729,27 @@
     <Content Include="fontawesome-free-5.15.2-web\webfonts\fa-regular-400.svg" />
     <Content Include="fontawesome-free-5.15.2-web\webfonts\fa-solid-900.svg" />
     <Content Include="img\logo-moi.png" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\AUTHORS.txt" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\external\jquery\jquery.js" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\images\ui-icons_444444_256x240.png" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\images\ui-icons_555555_256x240.png" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\images\ui-icons_777620_256x240.png" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\images\ui-icons_777777_256x240.png" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\index.html" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\jquery-ui.css" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\jquery-ui.js" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\jquery-ui.min.css" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\jquery-ui.min.js" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\jquery-ui.structure.css" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\jquery-ui.structure.min.css" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\jquery-ui.theme.css" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\jquery-ui.theme.min.css" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\LICENSE.txt" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\main.js" />
+    <Content Include="js\Script.js" />
     <Content Include="QuanTri\SinhVien\DetailForm.aspx" />
     <Content Include="QuanTri\SinhVien\MainForm.aspx" />
     <Content Include="Web.config" />
@@ -1820,7 +1834,15 @@
     <Content Include="fontawesome-free-5.15.2-web\webfonts\fa-solid-900.ttf" />
     <Content Include="fontawesome-free-5.15.2-web\webfonts\fa-solid-900.woff" />
     <Content Include="fontawesome-free-5.15.2-web\webfonts\fa-solid-900.woff2" />
-    <None Include="packages.config" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\css\bootstrap-theme.min.css.map" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\css\bootstrap.css.map" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\css\bootstrap.min.css.map" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\bootstrap-3.4.1-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="js\jquery\jquery-ui-1.12.1.custom\package.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1857,12 +1879,6 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
